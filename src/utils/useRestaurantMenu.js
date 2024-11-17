@@ -20,7 +20,7 @@ const useRestaurantMenu = (resId) => {
     //     resId;
         
     // );
-    const response = await fetch(`${EDUCORS_URL}?ApiKey=${API_KEY}&Target=${encodeURIComponent(Target)}`);
+    const response = await fetch(`${EDUCORS_URL}?ApiKey=6820462bf0a9e484&Target=${encodeURIComponent(Target)}`);
 
     const json = await response.json();
     // const json = await data.json();
